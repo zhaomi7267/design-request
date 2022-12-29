@@ -1,8 +1,8 @@
 {
-  "name": "arr-six-utils",
-  "version": "1.0.5",
+  "name": "design-request",
+  "version": "1.0.1",
   "description": "",
-  "main": "dist/ARRSix-utils.cjs.js",
+  "main": "dist/design-request.cjs.js",
   "scripts": {
     "test": "jest",
     "build": "rollup -c",
@@ -18,6 +18,7 @@
     "@rollup/plugin-typescript": "^10.0.1",
     "@types/jest": "^29.2.4",
     "@types/node": "^18.11.18",
+    "@types/qs": "^6.9.7",
     "babel-jest": "^29.3.1",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
@@ -25,8 +26,8 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "tslib": "^2.4.1"
   },
-  "module": "dist/ARRSix-utils.esm.js",
-  "browser": "dist/ARRSix-utils.umd.js",
+  "module": "dist/design-request.esm.js",
+  "browser": "dist/design-request.umd.js",
   "types": "src/index.d.ts",
   "type": "module",
   "files": [
@@ -38,9 +39,15 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
+    "@rollup/plugin-commonjs": "^15.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "axios": "^1.2.1",
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.8.1"
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "prettier": "^2.8.1",
+    "qs": "^6.11.0"
   }
 }

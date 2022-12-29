@@ -1,4 +1,4 @@
-declare namespace ARRSixUtils {
+declare namespace DesignRequest {
   /**
    * 生成数字范围内的随机数
    * @param min 最小数字
@@ -8,6 +8,6 @@ declare namespace ARRSixUtils {
   export function random(min: number, max: number): number
 }
 
-declare module 'arr-six-utils' {
-  export = ARRSixUtils
+declare module 'design-request' {
+  export = DesignRequest
 }

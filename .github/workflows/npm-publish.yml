@@ -27,7 +27,7 @@ name: Node.js Package
 #      - uses: actions/setup-node@v3
 #        with:
 #          node-version: 16.x
-#          registry-request: https://registry.npmjs.org/
+#          registry-config: https://registry.npmjs.org/
 #      - run: npm publish
 #        env:
 #          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
